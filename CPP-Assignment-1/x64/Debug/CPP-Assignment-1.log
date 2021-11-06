@@ -1,0 +1,4 @@
+﻿  CPP-Assignment-1.cpp
+C:\Users\VuHoang\Documents\GitHub\CPP-Assignment-1\CPP-Assignment-1\CPP-Assignment-1.cpp(101,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\VuHoang\Documents\GitHub\CPP-Assignment-1\CPP-Assignment-1\CPP-Assignment-1.cpp(104,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+  CPP-Assignment-1.vcxproj -> C:\Users\VuHoang\Documents\GitHub\CPP-Assignment-1\x64\Debug\CPP-Assignment-1.exe

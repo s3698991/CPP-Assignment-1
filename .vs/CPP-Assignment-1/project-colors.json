@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5404bd40-eb26-4f57-94e5-ab359f2b7922": {
+      "ProjectGuid": "5404bd40-eb26-4f57-94e5-ab359f2b7922",
+      "DisplayName": "CPP-Assignment-1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

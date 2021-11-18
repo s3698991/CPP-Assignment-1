@@ -54,25 +54,25 @@ void print_array(int arr[], int size) {
 }
 
 // Driver program to test above functions
-int main(int argc, char* argv[])
-{
-	int* arr = NULL;
-	int n;
-	if (argc == 2)
-		n = atoi(argv[1]);
-	else
-		n = 5;
-
-	arr = new int[n];
-	for (int i = 0; i < n; i++)
-		arr[i] = (i * (i + 1)) % n;
-
-	cout << "Non-sorted array: \n";
-	print_array(arr, n);
-	quickSort(arr, 0, n - 1);
-	cout << "Sorted array: \n";
-	print_array(arr, n);
-
-	delete[] arr;
-	return 0;
-}
+//int main(int argc, char* argv[])
+//{
+//	int* arr = NULL;
+//	int n;
+//	if (argc == 2)
+//		n = atoi(argv[1]);
+//	else
+//		n = 5;
+//
+//	arr = new int[n];
+//	for (int i = 0; i < n; i++)
+//		arr[i] = (i * (i + 1)) % n;
+//
+//	cout << "Non-sorted array: \n";
+//	print_array(arr, n);
+//	quickSort(arr, 0, n - 1);
+//	cout << "Sorted array: \n";
+//	print_array(arr, n);
+//
+//	delete[] arr;
+//	return 0;
+//}

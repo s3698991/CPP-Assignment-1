@@ -18,5 +18,8 @@
     <ClCompile Include="CPP-Assignment-1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="4B and 6B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

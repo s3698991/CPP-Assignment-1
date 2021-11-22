@@ -1,5 +1,5 @@
 ﻿  4B and 6B.cpp
-C:\Users\kingw\source\repos\s3698991\CPP-Assignment-1\CPP-Assignment-1\4B and 6B.cpp(18,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\kingw\source\repos\s3698991\CPP-Assignment-1\CPP-Assignment-1\4B and 6B.cpp(42,35): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\kingw\source\repos\s3698991\CPP-Assignment-1\CPP-Assignment-1\4B and 6B.cpp(59,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  CPP-Assignment-1.vcxproj -> C:\Users\kingw\Source\Repos\s3698991\CPP-Assignment-1\x64\Debug\CPP-Assignment-1.exe
+C:\Users\kingw\source\repos\s3698991\CPP-Assignment-1\CPP-Assignment-1\4B and 6B.cpp(38,36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kingw\source\repos\s3698991\CPP-Assignment-1\CPP-Assignment-1\4B and 6B.cpp(42,80): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kingw\source\repos\s3698991\CPP-Assignment-1\CPP-Assignment-1\4B and 6B.cpp(45,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  CPP-Assignment-1.vcxproj -> C:\Users\kingw\source\repos\s3698991\CPP-Assignment-1\x64\Debug\CPP-Assignment-1.exe

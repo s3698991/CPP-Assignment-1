@@ -51,19 +51,6 @@ void ThirdQuartile(float arr_x[], float arr_y[], int rows) {
     sort(arr_y, arr_y + rows);
     float Q3_x = arr_x[(rows * 3 / 4)];
     float Q3_y = arr_y[(rows * 3 / 4)];
-    if (( fmod(arr_x[rows * 3 / 4], 2)) == 0 ) {
-        Q3_x = (Q3_x + arr_x[(rows * 3 / 4 - 3 / 4)]) / 2;
-    }
-    else {
-        Q3_x = (Q3_x + arr_x[(rows * 3 / 4)]) / 2;
-    }
-
-    if ((fmod(arr_y[rows * 3 / 4], 2)) == 0) {
-        Q3_y = (Q3_y + arr_y[(rows * 3 / 4 - 3 / 4)]) / 2;
-    }
-    else {
-        Q3_y = (Q3_y + arr_y[(rows * 3 / 4)]) / 2;
-    }
     cout << "Q3_x = "<< Q3_x << "- Q3_y = " << Q3_y << endl;
 }
 

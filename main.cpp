@@ -199,25 +199,55 @@ void store_data(int rows, const string& file_name) {
     if (file.is_open()) {
         string line;
         int i = 0;
+
         getline(file, line);
         while (!file.eof()) {
+            int checka = 0;
+            int checkb = 0;
             getline(file, data_a, ',');
-            if (data_a.empty()) {
-                data_a = "0";
+            if (data_a.empty()) {               //Check if data is null
+                checka = 1;
             }
-            arr_a[i] = stof(data_a);
+            else {
+                for (char const& c : data_a) {
+                    if (!isdigit(c)) {          //Check if data is valid number
+                        checka = 1;
+                        break;
+                    }
+                }
+            }
+            if (checka == 0) {
+                arr_a[i] = stof(data_a);
+            }
             getline(file, data_b, '\n');
-            if (data_b.empty()) {
-                data_b = "0";
+            if (data_b.empty()) {               //Check if data is null
+                checkb = 1;
             }
-            arr_b[i] = stof(data_b);
-            i++;
+            else {
+                for (char const& c : data_b) {
+                    if (!isdigit(c)) {          //Check if data is valid number
+                        checkb = 1;
+                        break;
+                    }
+                }
+            }
+            if (checkb == 0) {
+                arr_b[i] = stof(data_b);
+            }
+            if (checka == 0 && checkb == 0) {
+                i++;
+            }
+            else
+            {
+                rows = rows - 1;
+            }
         }
         file.close();
     }
     else {
         cerr << "Error: File cannot readable" << endl;
     }
+
     median_cal(arr_a, arr_b, rows);
     mode_cal(arr_a, arr_b, rows);
     cal_variance(arr_a, arr_b, rows);
@@ -228,6 +258,7 @@ void store_data(int rows, const string& file_name) {
     cal_covariance(arr_a, arr_b, rows);
     cal_correlationCoefficient(arr_a, arr_b, rows);
     cal_linearRegression(arr_a, arr_b, rows);
+
     delete[] arr_a;
     delete[] arr_b;
 }
@@ -257,4 +288,3 @@ int main() {
     cin >> file_name;
     read_file(file_name);
 }
-

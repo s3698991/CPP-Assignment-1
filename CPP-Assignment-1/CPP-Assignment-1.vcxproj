@@ -139,8 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="4B, 6B, 7B.cpp" />
     <ClCompile Include="CPP-Assignment-1.cpp" />
-    <ClCompile Include="4B and 6B.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
